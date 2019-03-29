@@ -1,1 +1,15 @@
 // Mixins Here
+.centered {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+.hidepics {
+  display: none;
+}
+.custom-button(@position, @width){
+	display: @position;
+  width: @width;
+}

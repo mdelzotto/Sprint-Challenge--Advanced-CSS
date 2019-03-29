@@ -1,1 +1,46 @@
 // Navigation code here
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 10px;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+header {
+  background-color: #F6F6F6;
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: @main-font-color;
+  }
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+
+
+  a {
+    padding: 10px;
+  }
+}
+
+.main-header {
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  height: 100%;
+
+  @media @phone {
+    width: 500px;
+    height: 75%;
+  }
+}
