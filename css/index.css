@@ -270,13 +270,19 @@ footer {
   }
 }
 .home .visit-planets {
-  padding: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
 }
 .home .visit-planets h3 {
   margin-top: 11px;
 }
 .home .visit-planets p {
   margin-top: 13px;
+}
+.home section {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 @media (max-width: 500px) {
   .home .sky,
