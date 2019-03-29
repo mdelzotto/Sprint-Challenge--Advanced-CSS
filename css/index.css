@@ -160,6 +160,30 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 10px;
+  margin-top: 0;
+  padding-top: 10px;
+}
+header {
+  background-color: #F6F6F6;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+  font-size: 1.75rem;
+  color: #5E6164;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+nav a {
+  padding: 10px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
